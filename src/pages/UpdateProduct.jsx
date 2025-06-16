@@ -28,7 +28,7 @@ const UpdateProduct = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Updated product data:", { id, name, description });
-    showAlert(`Product ${id} updated with name: ${name} and description: ${description}`);
+    showAlert(`Product ${id} updated successfully`);
   };
 
   if (loading) {
