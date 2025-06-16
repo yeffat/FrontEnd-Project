@@ -40,11 +40,6 @@ React Context providers for managing global state and functionality:
   - Allows components to show alert messages to users.  
   - Manages alert visibility and content state.  
 
-- `UserContext.jsx`: Manages user authentication and data.  
-  - Holds the current user's email as state.  
-  - Provides login and logout functions to update user state.  
-  - Enables components to access and react to user login status globally.
-
 
 ### pages/  
 Page components representing different routes in the app:  
